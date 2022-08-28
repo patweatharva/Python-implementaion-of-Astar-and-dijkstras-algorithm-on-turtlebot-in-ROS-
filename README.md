@@ -47,6 +47,6 @@ chmod +x global_path_planning.py
 rosrun global_path_planning path_planning_server.py
 ```
 
-6. In the RViz window, select the 2D Nav Goal button and select the goal position on the map. The orientation can be set while selecting the goal position and dragging the cursor. On setting the position, the visualization of the selected path planning algorithm would start.
+7. In the RViz window, select the 2D Nav Goal button and select the goal position on the map. The orientation can be set while selecting the goal position and dragging the cursor. On setting the position, the visualization of the selected path planning algorithm would start.
 
-7. By default the astar algorithm would work. To set the path planning algorithm, out of astar, dijkstra or greedy. Go to the file `src/global_path_planning/src/path_planning_server.py`. In global_path_planning.py file call desired algorithm function instead of calling the `astar` function, call either `dijkstra` or `greedy` with the same arguments to run the respective algorithm.
+8. By default the astar algorithm would work. To set the path planning algorithm, out of astar, dijkstra or greedy. Go to the file `src/global_path_planning/src/path_planning_server.py`. In global_path_planning.py file call desired algorithm function instead of calling the `astar` function, call either `dijkstra` or `greedy` with the same arguments to run the respective algorithm.
