@@ -1,0 +1,2 @@
+global_path_planning:pp_msgs:q_learning_world:ros_world:srv_client_plugin:turtlebot3
+-DCATKIN_DEVEL_PREFIX=/home/user/Robotics-Playground/turtlebot3_ws/devel -DCMAKE_INSTALL_PREFIX=/home/user/Robotics-Playground/turtlebot3_ws/install -G Unix Makefiles

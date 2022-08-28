@@ -1,0 +1,8 @@
+prefix=/home/user/Robotics-Playground/turtlebot3_ws/install
+
+Name: ros_world
+Description: Description of ros_world
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

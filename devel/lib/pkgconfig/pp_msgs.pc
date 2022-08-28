@@ -1,0 +1,8 @@
+prefix=/home/user/Robotics-Playground/turtlebot3_ws/devel
+
+Name: pp_msgs
+Description: Description of pp_msgs
+Version: 0.1.0
+Cflags: -I/home/user/Robotics-Playground/turtlebot3_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

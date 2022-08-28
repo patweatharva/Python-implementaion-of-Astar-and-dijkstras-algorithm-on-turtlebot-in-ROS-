@@ -1,0 +1,8 @@
+prefix=/home/user/Robotics-Playground/turtlebot3_ws/install
+
+Name: srv_client_plugin
+Description: Description of srv_client_plugin
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsrv_client_plugin
+Requires: base_local_planner costmap_2d geometry_msgs nav_core nav_msgs pluginlib roscpp rospy tf2 tf2_ros

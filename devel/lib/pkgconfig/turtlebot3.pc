@@ -1,0 +1,8 @@
+prefix=/home/user/Robotics-Playground/turtlebot3_ws/devel
+
+Name: turtlebot3
+Description: Description of turtlebot3
+Version: 1.2.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: urdf xacro
