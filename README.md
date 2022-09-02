@@ -2,6 +2,7 @@
 
 This workspace has been tested with ROS Noetic. And may work for ROS Melodic and ROS Kinetic. This directory contains all the code used for A Star based Path Planning.
 
+
 ## Dependencies
 Install the ROS Navigation Stack
 
@@ -10,6 +11,8 @@ sudo apt-get install ros-<dist>-navigation
 ```
 
 ## Steps to Run
+
+If running on ROS noetic change environment from #!/usr/bin/env python to #!/usr/bin/env python3 specified at the top of the python script.
 
 1. Having this directory as the present working directory, build the project
 

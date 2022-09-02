@@ -6,8 +6,6 @@ from gridviz import GridViz
 from algorithms.dijkstra import dijkstra
 from algorithms.astar import astar
 from algorithms.greedy import greedy
-from algorithms.q_learning import q_learning
-from algorithms.lpastar import lpastar
 from algorithms.dijkstra_with_priority_queue import dijkstra_with_heap
 from pp_msgs.srv import PathPlanningPlugin, PathPlanningPluginResponse
 
